@@ -2,7 +2,7 @@ package assignments;
 
 public class HDFC implements RBI{
 	
-  public  void recurringdeposit(int year,double amount){
+  public  void reccurringDeposit(double amount,int year){
 	  int n=year*12;
 	  double p=amount;
 	  double r=InterestRate;
@@ -11,7 +11,7 @@ public class HDFC implements RBI{
   }
   public static void main(String[] args) {
 	  RBI obj=new HDFC();
-	  obj.reccurringDeposit(1, 1000);
+	  obj.reccurringDeposit(1000,1);
   }
   
 }
